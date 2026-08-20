@@ -1,7 +1,7 @@
 codenow:
   connections:
   - name: "DB"
-    type: "postgres"
+    type: "cloudnative-pg"
   runtime:
     replicas: 1
     resources:
