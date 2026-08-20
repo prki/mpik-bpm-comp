@@ -1,4 +1,4 @@
-# bpm-app
+# bpm-app-comp
 
 ## Setting up an IDE
 https://javalin.io/tutorials/maven-setup

@@ -10,7 +10,7 @@ RUN apk add --no-cache openjdk17-jre curl bash \
 WORKDIR /app
 
 # Copy application files
-COPY --chown=appuser:appgroup target/bpm-app.jar app.jar
+COPY --chown=appuser:appgroup target/bpm-app-comp.jar app.jar
 COPY --chown=appuser:appgroup truststore.jks .
 
 # Expose port

@@ -8,8 +8,8 @@ codenow:
   applicationName: ""
   applicationRuntimeName: ""
   applicationVersion: ""
-  componentRuntimeName: "bpm-app"
-  componentName: "bpm-app"
+  componentRuntimeName: "bpm-app-comp"
+  componentName: "bpm-app-comp"
   componentVersion: ${project.version}
   templateId: ""
   domainName: "tmobile-demo.codenow.com"
