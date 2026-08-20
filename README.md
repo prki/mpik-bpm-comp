@@ -1,4 +1,4 @@
-# mpik-bpm-comp
+# bpm-app
 
 ## Setting up an IDE
 https://javalin.io/tutorials/maven-setup

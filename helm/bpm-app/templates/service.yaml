@@ -25,7 +25,7 @@ spec:
   hosts:
   - {{ .Values.codenow.componentRuntimeName }}-{{ .Release.Namespace }}.{{ .Values.codenow.domainName }}
   gateways:
-  - {{ .Values.codenow.serviceMeshGateway }}
+  - {{.Values.codenow.serviceMeshGateway }}
   http:
   - match:
     - uri:
@@ -36,17 +36,17 @@ spec:
         port:
           number: 80
     corsPolicy:
-        allowOrigins:
-          - exact: '*'
-        allowMethods:
-          - POST
-          - GET
-          - OPTIONS
-          - PUT
-          - DELETE
-        allowHeaders:
-          - "*"
-        exposeHeaders:
-          - "*"
-        allowCredentials: true
+      allowOrigins:
+        - exact: '*'
+      allowMethods:
+        - POST
+        - GET
+        - OPTIONS
+        - PUT
+        - DELETE
+      allowHeaders:
+        - "*"
+      exposeHeaders:
+        - "*"
+      allowCredentials: true
 {{- end }}

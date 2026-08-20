@@ -8,8 +8,8 @@ codenow:
   applicationName: ""
   applicationRuntimeName: ""
   applicationVersion: ""
-  componentRuntimeName: "mpik-bpm-comp"
-  componentName: "mpik-bpm-comp"
+  componentRuntimeName: "bpm-app"
+  componentName: "bpm-app"
   componentVersion: ${project.version}
   templateId: ""
   domainName: "tmobile-demo.codenow.com"
@@ -30,7 +30,7 @@ remoteDebug:
 
 service:
   type: ClusterIP
-  port: 8080
+  port: 80
   externalEndpointEnabled: true
 
 
