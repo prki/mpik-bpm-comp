@@ -34,7 +34,8 @@ spring:
     log-request-details: true
 
 server:
-  port: ${SERVER_PORT:9090}
+  #port: ${SERVER_PORT:9090}
+  port: 9090
   servlet:
     context-path: /
   forward-headers-strategy: native
